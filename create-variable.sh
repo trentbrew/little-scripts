@@ -2,4 +2,4 @@
 
 set -o noclobber
 echo "$1=\"$2\"" >> ~/.zshrc
-echo "${BLUE}variable saved in ~/.zsh${NC}"
+echo "global variable \`\$$1\` set to \`$2\`"
