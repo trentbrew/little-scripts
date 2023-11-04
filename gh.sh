@@ -7,12 +7,14 @@ clone() {
     git clone https://github.com/$1 && echo "" && l;
     echo "";
 }
+# usage: gh remote <user>/<repo>
 remote() {
     echo "";
     echo -e "${BLUE}git remote add origin https://github.com/$1 ${NC}";
     echo "";
     git remote add origin https://github.com/$1 && echo "Linked to http://github.com/$1" && echo "";
 }
+#
 add() {
     echo "";
     echo -e "${BLUE}git add . -v ${NC}";
