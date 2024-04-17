@@ -7,5 +7,5 @@ if [ ! -z "$existing_alias" ]; then
 fi
 
 # Add the new alias
-echo "alias $1=\"cd $(pwd) && code .\"" >>~/.zshrc
+echo "alias $1=\"cd $(pwd) && c .\"" >>~/.zshrc
 echo "alias $1 created: cd $(pwd) && c"
