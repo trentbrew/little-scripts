@@ -12,5 +12,4 @@ else
   # Add the new alias to .zshrc
   echo "alias $1='$last_command'" >>~/.zshrc
   echo "alias $1 for '$last_command' added to ~/.zshrc"
-  echo "reset zsh to apply changes"
 fi
