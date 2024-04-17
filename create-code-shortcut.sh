@@ -9,3 +9,4 @@ fi
 # Add the new alias
 echo "alias $1=\"cd $(pwd) && code .\"" >>~/.zshrc
 echo "alias $1 created: cd $(pwd) && c"
+echo "reset zsh to apply changes"
