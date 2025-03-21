@@ -1,0 +1,649 @@
+# !/bin/bash
+
+###############################################################################
+
+# Directory Navigation Aliases
+
+###############################################################################
+alias -g /notes="cd /Users/trent/notes"
+alias -g /chat="cd /Users/trent/projects/personal\ projects/development/Playground/gpt"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs"
+alias -g /sandbox="cd /Users/trent/projects/personal\ projects/development/Playground/sandbox"
+alias -g /svgpt="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /lc="cd /Users/trent/turtle/projects"
+alias -g /mail="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /inbox="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /vectorfusion="cd /Users/trent/turtle/operations/Utils/Tools/vectorfusion/VectorFusion-pytorch"
+alias -g /ollama="cd /Users/trent/turtle/operations/LLMs"
+alias -g /memos="cd /Users/trent/turtle/projects"
+alias -g /models="cd /Users/trent/turtle/operations/LLMs"
+alias -g /conda="cd /Users/trent/anaconda3"
+alias -g /cache="cd /Users/trent/.cache"
+alias -g /lmstudio="cd /Users/trent/.cache/lm-studio"
+alias -g /lm="cd /Users/trent/.cache/lm-studio"
+alias -g /modelfiles="cd /Users/trent/.ollama"
+alias -g /kern="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar-thing="cd /Users/trent/turtle/projects/Apps"
+alias -g /cal="cd /Users/trent/turtle/projects/Apps"
+alias -g /slides="cd /Users/trent/turtle/operations/Blueprints/slides"
+alias -g /notes="cd /Users/trent/notes"
+alias -g /projects="cd /Users/trent/turtle/projects"
+alias -g /p="cd /Users/trent/turtle/projects"
+alias -g /games="cd /Users/trent/turtle/projects/games"
+alias -g /sh="cd /Users/trent/turtle/operations/Utils/Scripts/sh"
+alias -g /sea="cd /Users/trent/Notes/gumbo/operation sea turtle"
+alias -g /seaturtle="cd /Users/trent/Notes/gumbo/operation sea turtle"
+alias -g /operationseaturtle="cd /Users/trent/Notes/gumbo/operation sea turtle"
+alias -g /bezi="cd /Users/trent/turtle/projects/Apps/bezi/0.0.1/app"
+alias -g /t="cd /Users/trent/turtle"
+alias -g /chest="cd /Users/trent/.vault"
+alias -g /vault="cd /Users/trent/.vault"
+alias -g /outerverse="cd /Volumes/Outerverse/trent"
+alias -g /ov="cd /Volumes/Outerverse/trent"
+alias -g /turtle="cd /Users/trent/turtle"
+alias -g /dev="cd /Users/trent/turtle/projects"
+alias -g /apis="cd /Users/trent/turtle/projects/APIs"
+alias -g /apps="cd /Users/trent/turtle/projects/Apps"
+alias -g /extensions="cd /Users/trent/turtle/projects/Extensions"
+alias -g /modules="cd /Users/trent/turtle/projects"
+alias -g /plugins="cd /Users/trent/turtle/projects/Plugins"
+alias -g /saas="cd /Users/trent/turtle/projects/Apps"
+alias -g /chat="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /sandbox="cd /Users/trent/turtle/projects"
+alias -g /svgpt="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /lc="cd /Users/trent/turtle/projects"
+alias -g /mail="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /inbox="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /vectorfusion="cd /Users/trent/turtle/operations/Utils/Tools/vectorfusion/VectorFusion-pytorch"
+alias -g /ollama="cd /Users/trent/turtle/operations/LLMs"
+alias -g /memos="cd /Users/trent/turtle/projects"
+alias -g /models="cd /Users/trent/turtle/operations/LLMs"
+alias -g /conda="cd /Users/trent/anaconda3"
+alias -g /cache="cd /Users/trent/.cache"
+alias -g /lmstudio="cd /Users/trent/.cache/lm-studio"
+alias -g /lm="cd /Users/trent/.cache/lm-studio"
+alias -g /modelfiles="cd /Users/trent/.ollama"
+alias -g /kern="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar="cd /Users/trent/turtle/projects/Apps"
+alias -g /slides="cd /Users/trent/turtle/operations/Blueprints/slides"
+alias -g /notes="cd /Users/trent/notes"
+alias -g :notes="/notes && c"
+alias -g /ops="cd /Users/trent/turtle/operations"
+alias -g /blueprints="cd /Users/trent/turtle/projects/blueprints"
+alias -g /p="cd /Users/trent/turtle/projects"
+alias -g /apps="cd /applications"
+alias -g /downloads="cd /Users/trent/Downloads"
+alias -g /documents="cd /Users/trent/documents"
+alias -g /animation="cd /Users/trent/Animation"
+alias -g /lottie="cd /Users/trent/Animation/lottie"
+alias -g /music="cd /Users/trent/music"
+alias -g /pictures="cd /Users/trent/pictures"
+alias -g /gifs="cd /Users/trent/pictures/gifs"
+alias -g /clients="cd /Users/trent/turtle/clients"
+alias -g /podular="cd /Users/trent/turtle/clients/pod"
+alias -g /mpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /spk="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /speakmpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /widgets="cd /Users/trent/Gumbo/projects/client/speak mpls/website/gumbo-widgets"
+alias -g /hive="cd /Users/trent/turtle/projects/Apps/hive"
+alias -g /calendar="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar-thing="cd /Users/trent/turtle/projects/Apps"
+alias -g /cal="cd /Users/trent/turtle/projects/Apps"
+alias -g /docket="cd /Users/trent/turtle/projects/Apps/docket"
+alias -g /webstream="cd /Users/trent/turtle/projects/Apps/docket/app/webstream.docket.tv"
+alias -g /stream="cd /Users/trent/turtle/projects/Apps/docket/app/webstream.docket.tv"
+alias -g /tvguide="cd /Users/trent/turtle/projects/Apps/docket/app/tvguide.docket.tv"
+alias -g /watch="cd /Users/trent/turtle/projects/Apps/docket/app/watch.docket.tv"
+alias -g /docket-watch="cd /Users/trent/turtle/projects/Apps/docket/app/watch.docket.tv"
+alias -g /df="cd /Users/trent/turtle/projects/Apps/docket/app/app.docket.tv"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs/gpt"
+alias -g /hono="cd /Users/trent/turtle/projects/playground/hono/hono-playground"
+alias -g /icons="cd /Users/trent/turtle/projects/APIs/Iconic/src"
+alias -g /extensions="cd /Users/trent/turtle/projects/Extensions"
+alias -g /st="cd /Users/trent/turtle/projects/Extensions"
+alias -g /steno="cd /Users/trent/Turtle/Projects/APIs/Transcribe"
+alias -g /stenographer="cd /Users/trent/Turtle/Projects/APIs/Transcribe"
+alias -g /captions="cd /Users/trent/turtle/projects/apis/transcribe"
+alias -g /transcribe="cd /Users/trent/turtle/projects/apis/transcribe"
+alias -g /transcription="cd /Users/trent/turtle/projects/apis/transcribe"
+alias -g /honoplay="cd /Users/trent/turtle/projects/playground/hono/hono-playground"
+alias -g /n8n="cd /Users/trent/turtle/operations/Workflows/n8n"
+alias -g /chopchop="cd /Users/trent/Turtle/Operations/Utils/Scripts/js/chopchop"
+alias -g /chop="cd /Users/trent/Turtle/Operations/Utils/Scripts/js/chopchop"
+alias -g /blueprints="cd /Users/trent/turtle/projects/blueprints"
+alias -g /tb="cd /Users/trent/turtle/projects/Websites/trentbrew.com/app"
+alias -g /turtle="cd /Users/trent/turtle"
+alias -g /products="cd /Users/trent/turtle/projects"
+alias -g /dev="cd /Users/trent/turtle/projects"
+alias -g /apis="cd /Users/trent/turtle/projects/APIs"
+alias -g /apps="cd /Users/trent/turtle/projects/Apps"
+alias -g /modules="cd /Users/trent/turtle/projects"
+alias -g /saas="cd /Users/trent/turtle/projects/Apps"
+alias -g /chat="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /sandbox="cd /Users/trent/turtle/projects"
+alias -g /svgpt="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /lc="cd /Users/trent/turtle/projects"
+alias -g /mail="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /inbox="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /vectorfusion="cd /Users/trent/turtle/operations/Utils/Tools/vectorfusion/VectorFusion-pytorch"
+alias -g /ollama="cd /Users/trent/turtle/operations/LLMs"
+alias -g /memos="cd /Users/trent/turtle/projects"
+alias -g /models="cd /Users/trent/turtle/operations/LLMs"
+alias -g /conda="cd /Users/trent/anaconda3"
+alias -g /cache="cd /Users/trent/.cache"
+alias -g /lmstudio="cd /Users/trent/.cache/lm-studio"
+alias -g /lm="cd /Users/trent/.cache/lm-studio"
+alias -g /modelfiles="cd /Users/trent/.ollama"
+alias -g /kern="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar-thing="cd /Users/trent/turtle/projects/Apps"
+alias -g /cal="cd /Users/trent/turtle/projects/Apps"
+alias -g /slides="cd /Users/trent/turtle/operations/Blueprints/slides"
+alias -g /notes="cd /Users/trent/notes"
+alias -g /ops="cd /Users/trent/turtle/operations"
+alias -g /blueprints="cd /Users/trent/turtle/projects/blueprints"
+alias -g /p="cd /Users/trent/turtle/projects"
+alias -g /apps="cd /applications"
+alias -g /downloads="cd /Users/trent/Downloads"
+alias -g /documents="cd /Users/trent/documents"
+alias -g /animation="cd /Users/trent/Animation"
+alias -g /lottie="cd /Users/trent/Animation/lottie"
+alias -g /music="cd /Users/trent/music"
+alias -g /pictures="cd /Users/trent/pictures"
+alias -g /gifs="cd /Users/trent/pictures/gifs"
+alias -g /clients="cd /Users/trent/turtle/clients"
+alias -g /podular="cd /Users/trent/turtle/clients/pod"
+alias -g /mpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /spk="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /speakmpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /widgets="cd /Users/trent/Gumbo/projects/client/speak mpls/website/gumbo-widgets"
+alias -g /blue="cd /Users/trent/turtle/projects/blueprints"
+alias -g /dj="cd /Users/trent/turtle/projects/playground/dj/dj-src"
+alias -g /gemini="cd /Users/trent/turtle/projects/Apps/hive"
+alias -g /hive="cd /Users/trent/turtle/projects/Apps/hive"
+alias -g /hive3="cd /Users/trent/turtle/projects/Apps/hive/0.0.3"
+alias -g /brew="cd /Users/trent/turtle/projects/apps/brevity/brevity.ink"
+alias -g /malachite="cd /Users/trent/turtle/projects/apps/malachite"
+alias -g /mala="cd /Users/trent/turtle/projects/apps/malachite"
+alias -g /kia="cd /Users/trent/turtle/projects/Websites/kianijee.com/src"
+alias -g /iconic="cd /Users/trent/turtle/projects/APIs/Iconic/src"
+alias -g /alia="cd /Users/trent/turtle/projects/Extensions/Alia/src"
+alias -g /tb="cd /Users/trent/turtle/projects/Websites/trentbrew.com/app"
+alias -g /turtle="cd /Users/trent/turtle"
+alias -g /products="cd /Users/trent/turtle/projects"
+alias -g /dev="cd /Users/trent/turtle/projects"
+alias -g /apis="cd /Users/trent/turtle/projects/APIs"
+alias -g /apps="cd /Users/trent/turtle/projects/Apps"
+alias -g /modules="cd /Users/trent/turtle/projects"
+alias -g /plugins="cd /Users/trent/turtle/projects/Plugins"
+alias -g /saas="cd /Users/trent/turtle/projects/Apps"
+alias -g /chat="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /sandbox="cd /Users/trent/turtle/projects"
+alias -g /svgpt="cd /Users/trent/turtle/operations/LLMs/GPT/src"
+alias -g /lc="cd /Users/trent/turtle/projects"
+alias -g /mail="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /inbox="cd /Users/trent/turtle/operations/Utils/Tools/email-organizer/gmail-gpt"
+alias -g /vectorfusion="cd /Users/trent/turtle/operations/Utils/Tools/vectorfusion/VectorFusion-pytorch"
+alias -g /ollama="cd /Users/trent/turtle/operations/LLMs"
+alias -g /memos="cd /Users/trent/turtle/projects"
+alias -g /models="cd /Users/trent/turtle/operations/LLMs"
+alias -g /conda="cd /Users/trent/anaconda3"
+alias -g /cache="cd /Users/trent/.cache"
+alias -g /lmstudio="cd /Users/trent/.cache/lm-studio"
+alias -g /lm="cd /Users/trent/.cache/lm-studio"
+alias -g /modelfiles="cd /Users/trent/.ollama"
+alias -g /kern="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar="cd /Users/trent/turtle/projects/Apps"
+alias -g /calendar-thing="cd /Users/trent/turtle/projects/Apps"
+alias -g /cal="cd /Users/trent/turtle/projects/Apps"
+alias -g /slides="cd /Users/trent/turtle/operations/Blueprints/slides"
+alias -g /notes="cd /Users/trent/notes"
+alias -g :assistant="/assistant && c"
+alias -g /assistant="cd /Users/trent/turtle/operations/LLMs/gpt/src/assistant"
+alias -g /iconic="cd /Users/trent/turtle/projects/APIs/Iconic/src"
+alias -g :iconic="/iconic && c"
+alias -g /kia="cd /Users/trent/turtle/projects/Websites/kianijee.com/src"
+alias -g /blueprints="cd /Users/trent/turtle/operations/Blueprints"
+alias -g /t="cd /Users/trent/turtle"
+alias -g /ops="cd /Users/trent/turtle/operations"
+alias -g /services-turtle="cd /Users/trent/Turtle/Projects/Websites/services.turtle.tech"
+alias -g /turtletech="cd /Users/trent/turtle/projects/websites/turtle.tech"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs"
+alias -g /apps="cd /Users/trent/turtle/projects/Apps"
+alias -g /plugins="cd /Users/trent/turtle/projects/Plugins"
+alias -g /extensions="cd /Users/trent/turtle/projects/Extensions"
+alias -g /pocketsvelte="cd /Users/trent/turtle/projects/blueprints/pocketsvelte/pocketsvelte"
+alias -g /gumbo="cd /Users/trent/Gumbo"
+alias -g /gumboclients="cd /Users/trent/Gumbo/projects/client"
+alias -g /mpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /spk="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /speakmpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /widgets="cd /Users/trent/Gumbo/projects/client/speak mpls/website/gumbo-widgets"
+alias -g /pbup="cd /Users/trent/turtle/operations/utils/PocketBase/pb-uploader"
+alias -g /dock="cd /Users/trent/turtle/projects/Apps/docket"
+alias -g /="cd"
+alias -g /embeds="cd /Users/trent/Gumbo/development/embeds"
+alias -g /widgets="cd /Users/trent/Gumbo/development/embeds"
+alias -g /project="cd /Users/trent/turtle/projects"
+alias -g /sandbox="cd /Users/trent/turtle/projects"
+alias -g /blueprints="cd /Users/trent/turtle/projects/blueprints"
+alias -g /dea="cd /Users/trent/turtle/projects/Apps/docket/app/api-refactor"
+alias -g /notes="cd /Users/trent/notes"
+alias -g /blog="cd /Users/trent/turtle/projects/Websites/trentbrew.com/blog"
+alias -g /Blog="cd /Users/trent/turtle/projects/Websites/trentbrew.com/blog"
+alias -g /yt-dlp="cd /Users/trent/.config/yt-dlp"
+alias -g /ytdlp="cd /Users/trent/.config/yt-dlp"
+alias -g /yt-dlp-config="cd /Users/trent/.config/yt-dlp"
+alias -g /nexudus="cd /Users/trent/turtle/projects/APIs/nexudus"
+alias -g /bvb="cd /Users/trent/Gumbo/projects/client/bronzeville blues"
+alias -g /bronzevilleblues="cd /Users/trent/Gumbo/projects/client/bronzeville blues"
+alias -g /bvbcal="cd /Users/trent/Gumbo/projects/client/bronzeville blues/calendar/v2/bvb-cal"
+alias -g /notion="cd /Users/trent/turtle/projects/APIs/notion/trentbrew.com"
+alias -g /brevf="cd /Users/trent/turtle/projects/apps/brevity/brevity.ink/frontend"
+alias -g /apps="cd /Users/trent/turtle/projects/Apps"
+alias -g /open-finance="cd /Users/trent/turtle/operations/utils/tools/open-finance"
+alias -g /openfinance="cd /Users/trent/turtle/operations/utils/tools/open-finance"
+alias -g /utils="cd /Users/trent/turtle/operations/utils"
+alias -g /tools="cd /Users/trent/turtle/operations/utils/tools"
+alias -g /d="cd /Users/trent/turtle/projects/Apps/docket/app"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs/gpt"
+alias -g /scripts="cd /Users/trent/turtle/operations/Utils/Scripts/sh"
+alias -g /sh="cd /Users/trent/turtle/operations/Utils/Scripts/sh"
+alias -g /wvb="cd /Users/trent/turtle/projects/apps/WebviewBrowser"
+alias -g /browser="cd /Users/trent/turtle/projects/apps/WebviewBrowser"
+alias -g /wv2b="cd /Users/trent/turtle/projects/apps/WebviewBrowser/WebView2Browser"
+alias -g /min="cd /Users/trent/turtle/projects/apps/turtleos/0.0.2/min"
+alias -g /blue="cd /Users/trent/turtle/projects/blueprints"
+alias -g /dj="cd /Users/trent/turtle/projects/playground/dj/dj-src"
+alias -g /gemini="cd /Users/trent/turtle/projects/DevTools/GeminiNano"
+alias -g /malachite="cd /Users/trent/turtle/projects/apps/malachite"
+alias -g /mx="cd /Users/trent/turtle/projects/apps/malachite"
+alias -g /brew="cd /Users/trent/turtle/projects/apps/brevity/brevity.ink"
+alias -g /ptpx="/Users/trent/Projects/personal\ projects/development/Scripts/sh/ptpx.sh"
+alias -g /pt="ptpx"
+alias -g /dpi="ptpx"
+alias -g /html="/notes && touch scrratch.html && code scratch.html"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs"
+alias -g /sandbox="cd /Users/trent/turtle/projects"
+alias -g /play="cd /Users/trent/turtle/projects/playground"
+alias -g /playground="cd /Users/trent/turtle/projects/playground"
+alias -g /iconic="cd /Users/trent/turtle/projects/APIs/Iconic/src"
+alias -g /kia="cd /Users/trent/turtle/projects/Websites/kianijee.com/src"
+alias -g /blueprints="cd /Users/trent/turtle/operations/Blueprints"
+alias -g /tb="cd /Users/trent/turtle/projects/Websites/trentbrew.com/app"
+alias -g /services="cd /Users/trent/turtle/projects/websites/services.turtle.tech"
+alias -g /pocketsvelte="cd /Users/trent/turtle/projects/blueprints/pocketsvelte/pocketsvelte"
+alias -g /gumbo="cd /Users/trent/Gumbo"
+alias -g /gumboclients="cd /Users/trent/Gumbo/projects/client"
+alias -g /mpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /spk="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /speakmpls="cd /Users/trent/Gumbo/projects/client/mpls"
+alias -g /widgets="cd /Users/trent/Gumbo/projects/client/speak mpls/website/gumbo-widgets"
+alias -g /uploaders="cd /Users/trent/turtle/operations/utils/uploaders"
+alias -g /dock="cd /Users/trent/turtle/projects/Apps/docket"
+alias -g /p="cd /Users/trent/turtle/projects"
+alias -g /gpts="cd /Users/trent/turtle/operations/LLMs/gpt"
+alias -g /d="cd /Users/trent/turtle/projects/Apps/docket/app"
+alias -g /embeds="cd /Users/trent/Gumbo/development/embeds"
+alias -g /notes="cd /Users/trent/notes"
+alias -g /downloads="cd /Users/trent/Downloads"
+alias -g /yt-dlp="cd /Users/trent/.config/yt-dlp"
+alias -g /ytdlp="cd /Users/trent/.config/yt-dlp"
+alias -g /bvb="cd /Users/trent/Gumbo/projects/client/bronzeville blues"
+alias -g /bronzevilleblues="cd /Users/trent/Gumbo/projects/client/bronzeville blues"
+alias -g /bvbcal="cd /Users/trent/Gumbo/projects/client/bronzeville blues/calendar/v2/bvb-cal"
+alias -g /brew="cd /Users/trent/turtle/projects/apps/brevity/brevity.ink"
+
+###############################################################################
+
+# Git Aliases
+
+###############################################################################
+alias -g :unorigin="git remote remove origin"
+alias -g :uno="unorigin"
+alias -g :demote="git remote remove origin"
+alias -g :deorigin="git remote remove origin"
+alias -g :unremote="git remote remove origin"
+alias -g :glog="git log --graph"
+alias -g :branch="git branch"
+alias -g :master="git checkout master"
+alias -g :main="git checkout main"
+alias -g :commit="git add . && git commit -m "
+alias -g :push="git push"
+alias -g :stash="git stash"
+alias -g :unstash="git stash pop"
+alias -g :rebase="git pull --rebase"
+alias -g :diff="git show"
+alias -g :oops="git restore ."
+alias gr=":gr"
+
+###############################################################################
+
+# Spotify / Music Aliases
+
+###############################################################################
+alias -g :next="spotify next"
+alias -g :sph="spotify -h"
+alias -g :prev="spotify prev"
+alias -g :song='echo "🎧 $(spotify status track) - $(spotify status artist)"'
+alias -g :50="spotify vol 50"
+alias -g :100="spotify vol 100"
+alias -g :75="spotify vol 75"
+alias -g :25="spotify vol 25"
+alias -g :pause="spotify pause"
+alias -g :dj="spotify"
+alias -g :virtual=":dj play virtual by bbrainz"
+alias -g :again=":dj replay"
+alias -g :album=":dj status album"
+alias -g :artist=":dj status artist"
+alias -g :track=":dj status track"
+alias -g :loud="100"
+alias -g :playlist=":dj play list"
+alias -g :shuffle=":dj toggle shuffle"
+alias -g :repeat=":dj toggle repeat"
+alias -g :shh="75" # duplicates above, redefines to 75
+alias -g :shhh="25"
+alias -g :shhhh="10"
+alias -g :shhhhh="5"
+alias -g :eh="next"
+alias -g :up="100"
+alias -g :timer="timetrace"
+alias -g :th="timetrace -h"
+alias -g :t="timetrace"
+alias -g :vol=":dj vol"
+alias :play=":dj play"
+alias vol=":vol"
+
+###############################################################################
+
+# FFMPEG / GIF Aliases
+
+###############################################################################
+alias -g :resizegif='ffmpeg -i $1 -vf "scale=$2:$3" resized*$1'
+alias -g :cropgif='ffmpeg -i $1 -vf "crop=$2:$3:$4:$5" cropped*$1'
+alias -g :reversegif='ffmpeg -i $1 -vf reverse reversed*$1'
+alias -g :changespeedgif='ffmpeg -i $1 -filter:v "setpts=$2\*PTS" changed_speed*$1'
+alias -g :extractframes='ffmpeg -i $1 -vf "fps=$2" frame*%04d.png'
+alias -g :combineframes='ffmpeg -framerate $2 -i frame*%04d.png -vf "scale=$3:$4" combined*$1'
+alias -g :cleanframes='rm frame\*\*'
+alias -g :stopgif='ffmpeg -i $1 -vf "fps=10,split[s],trim=duration=1[s1],setpts=N/FRAME*RATE/TB,s1,palettegen" -y palette.png && ffmpeg -i $1 -i palette.png -filter_complex "fps=10,split[s],trim=duration=1[s1];[s1]fifo[r];[s][r]paletteuse" stopped*$1'
+alias -g :gifhelp='echo "Usage: resizegif [input.gif] [width] [height], cropgif [input.gif] [width] [height] [x] [y], reversegif [input.gif], changespeedgif [input.gif] [speed_factor], extractframes [input.gif] [fps], combineframes [output.gif] [fps] [width] [height], cleanframes"'
+alias -g :mp4-mp3="ffmpeg -i $1.mp4 $1.mp3"
+alias -g :mp4-3="ffmpeg -i $1.mp4 $1.mp3"
+alias -g :mp43="ffmpeg -i $1.mp4 $1.mp3"
+alias -g :gifinfo="ffmpeg -i $1"
+alias -g :16x9="ffmpeg -i input.jpg -vf \"scale=w=if(gt(a,16/9),trunc(h*16/9/2)*2,min(iw,ow)):h=if(lt(a,16/9),trunc(w/16*9/2)\*2,min(ih,oh)),pad=width=if(gt(a,16/9),iw,ow):height=if(lt(a,16/9),ih,oh):(ow-iw)/2:(oh-ih)/2\" output.jpg"
+
+###############################################################################
+
+# Chat / GPT / AI
+
+###############################################################################
+alias -g ::="/Users/trent/Turtle/Operations/LLMs/GPT/src/assistant/chat.mjs $1"
+alias -g :chatgpt="npx chatgpt -m gpt-3.5-turbo"
+alias -g :hey=":chat 'hey'"
+alias -g :ty=":chat 'thank you'"
+alias -g :thanks="ty"
+alias -g :dj="spotify"
+alias -g /assistant="cd /Users/trent/turtle/operations/LLMs/gpt/src/assistant"
+alias -g :assistant="/assistant && c"
+alias -g :ii="interpreter --vision"
+
+###############################################################################
+
+# Timetrace Aliases
+
+###############################################################################
+alias -g :tc=":t create"
+alias -g :td=":t delete"
+alias -g :tg=":t get"
+alias -g :tl=":t list"
+alias -g :tt=":t start"
+alias -g :tx=":t stop"
+alias -g :tv=":t version"
+alias -g :tll="tl projects"
+alias -g :ttt=":t stop"
+
+###############################################################################
+
+# Python / Conda Aliases
+
+###############################################################################
+alias -g :activate="conda activate $1"
+alias -g :pv="python3 --version"
+alias -g :p3="python3"
+alias -g :py="python3"
+alias -g :pyject="/Users/trent/Projects/personal\ projects/development/Scripts/sh/pyject.sh"
+alias -g :venv="virtualenv venv"
+alias -g :module="pip list $1"
+alias -g :modules="pip list"
+
+###############################################################################
+
+# Node / NPM / Yarn / PNPM
+
+###############################################################################
+alias -g :npm-upgrade="npm install -g npm@latest"
+alias -g :npmupgrade="npm install -g npm@latest"
+alias -g :npminit="npm init -y"
+alias -g :npmy="npm init -y"
+alias -g :npm="npm"
+alias -g :run="npm run"
+alias -g :tailwindinit="npx tailwindcss init -p"
+alias -g :ts="echo 'refactor as typescript and remove jsdoc annotations' | pbcopy && echo '👍🏾'"
+alias -g :tsnode="ts-node $1"
+
+###############################################################################
+
+# Misc Dev / Tools
+
+###############################################################################
+alias -g :edit="nano"
+alias -g :origin="git ls-remote --get-url origin"
+alias -g :pg="/play"
+alias -g :thots="cat /Users/trent/notes/personal/quickies/just_notes.md"
+alias -g :thoughts="thots"
+alias -g :gpts="cd /Users/trent/turtle/operations/LLMs/gpt && c"
+alias -g :zxscripts="cd /Users/trent/Turtle/Operations/Utils/Scripts/legacy/zx && c"
+alias -g :timer="timetrace"
+alias -g :vol=":dj vol"
+alias -g :dockf="/docket-f"
+alias -g :dockb="/docket-b"
+alias -g :dockbr="dockb && r"
+alias -g :dockfr="dockf && r"
+alias -g :16r="16 && r"
+alias -g :postie="echo 'post {'name':'trent'} http://localhost:3000' | pbcopy && echo '📋 copied example post request to clipboard'"
+alias -g :postit="postie"
+alias -g /chopchop="cd /Users/trent/turtle/operations/Utils/Scripts/js/chopchop"
+alias -g :rune="echo 'You are my AI pair programmer...' | pbcopy"
+alias -g :eop="echo '∎' | pbcopy"
+alias -g :sense="of"
+alias -g :djconfig="nano ~/.shpotify.cfg"
+alias -g :like=":dj like"
+alias -g :djrc=":djconfig"
+alias -g :create_model="ollama create $1 -f $2"
+alias -g :create="create_model"
+alias -g :lm="ollama"
+alias -g :llama="ollama run llama2-uncensored"
+alias -g :ll="ls -al"
+alias -g :ollamas="ollama list"
+alias -g :pyject="/Users/trent/Projects/personal\ projects/development/Scripts/sh/pyject.sh"
+alias -g :compress="tar -czvf"
+alias -g :extract="tar -xzvf"
+alias -g :resume="fg"
+alias -g :kill="kill -9 $1"
+alias -g :process="sudo lsof -i :$1"
+alias -g :search="grep -rl \"$1\" ."
+alias -g :grepfiles="grep -rl $1 ."
+alias -g :serp="cat /Users/trent/vault/serp.txt | pbcopy"
+alias -g :browserless="cat /Users/trent/Vault/browserless.txt | pbcopy"
+alias -g :F='find . -type f -name "$1" -exec grep "$2" {} +'
+alias -g :expand="tar xzvf"
+
+###############################################################################
+
+# System & Misc
+
+###############################################################################
+alias -g :please="osascript -e $1"
+alias -g :apple="osascript $1"
+alias -g :max="please 'set volume output volume 100'"
+alias -g :mute="please 'set volume output volume 0'"
+alias -g :mid="please 'set volume output volume 50'"
+alias -g :shh="50"
+alias -g :shhh="25"
+alias -g :shhhh="10"
+alias -g :shhhhh="5"
+alias -g :eh="next"
+alias -g :up="100"
+alias -g :timer="timetrace"
+alias -g :th="timetrace -h"
+alias -g :t="timetrace"
+alias -g :nindex="node index.mjs"
+alias -g :g="gb"
+alias -g :glog="git log --graph"
+alias -g :volumes="df -h"
+alias -g :recall=":tell"
+alias -g :frontier=":tell frontier"
+alias -g :addy=":tell addy"
+alias -g :16="nvm use 16"
+alias -g :18="nvm use 18"
+alias -g :master="git checkout master"
+alias -g :main="git checkout main"
+alias -g :rr=":r"
+alias -g :vault="/vault"
+alias -g :notes="/notes && c"
+alias -g :ola="cd ~/.ollama && c"
+alias -g :helper="echo 'Insert helpful snippet here...' | pbcopy"
+alias -g :compose="docker-compose"
+alias -g :stop="docker stop"
+alias -g :z="z"
+alias -g :doc='jsdoc -c jsdoc.json $1'
+alias -g :trash="npm uninstall"
+alias -g :pretty="npm run pretty"
+alias -g :lint="npm run lint"
+alias -g :fix="npx eslint --fix . --ext .js,.vue,.mjs,.json"
+alias -g :has="echo 'TODO: Has command...'"
+alias -g :deploy="echo 'TODO: Deploy command...'"
+alias -g :quickdeploy="echo 'TODO: Quick deploy…'"
+alias -g :build="echo 'TODO: Build command…'"
+alias -g :permit="sudo chmod +x"
+alias -g :c="clear"
+alias -g :cx="clear && exit"
+alias -g :r="reload"
+alias -g :s="sudo"
+alias -g :remote="echo 'Remote placeholder…'"
+alias -g :windsurf="echo 'Windsurf placeholder…'"
+alias -g :branch="git branch"
+alias -g :R="r"
+alias -g :rc="source ~/.zshrc"
+alias R=":R"
+alias rc=":rc"
+alias tb=":tb"
+alias r=":r"
+alias s=":s"
+alias sc=":sc"
+alias a=":a"
+alias repo=":repo"
+alias quickdeploy=":quickdeploy"
+alias deploy=":deploy"
+alias build=":build"
+alias b=":build"
+alias permit=":permit"
+alias c=":c"
+alias cx=":cx"
+alias ws=":windsurf"
+
+###############################################################################
+
+# "pretty" Function for Prettier RC
+
+###############################################################################
+function pretty {
+touch .prettierrc
+cat > .prettierrc << 'EOF'
+{
+"printWidth": 80,
+"tabWidth": 2,
+"useTabs": false,
+"semi": false,
+"singleQuote": true,
+"trailingComma": "all",
+"bracketSpacing": true,
+"arrowParens": "always",
+"htmlWhitespaceSensitivity": "ignore",
+"vueIndentScriptAndStyle": true,
+"endOfLine": "auto",
+"jsxBracketSameLine": true
+}
+EOF
+echo ".prettierrc created successfully!"
+}
+
+###############################################################################
+
+# Environment Variables (API Keys, etc.)
+
+###############################################################################
+export LBPF_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+export OPENAI_API_KEY="sk-..."
+export GEMINI_API_KEY="AIza..."
+export REPLICATE_API_TOKEN="r8_CFVof..."
+export PERPLEXITY_API_KEY="pplx-..."
+
+###############################################################################
+
+# Python/Conda Setup
+
+###############################################################################
+
+# if [ -f "$HOME/anaconda3/bin/conda" ]; then
+
+# \_\_conda_setup="$("$HOME/anaconda3/bin/conda" shell.zsh hook 2>/dev/null)"
+
+# if [ $? -eq 0 ]; then
+
+# eval "$\_\_conda_setup"
+
+# else
+
+# if [ -f "$HOME/anaconda3/etc/profile.d/conda.sh" ]; then
+
+# . "$HOME/anaconda3/etc/profile.d/conda.sh"
+
+# else
+
+# export PATH="$HOME/anaconda3/bin:$PATH"
+
+# fi
+
+# fi
+
+# unset \_\_conda_setup
+
+# fi
+
+###############################################################################
+
+# Bun Setup
+
+###############################################################################
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+###############################################################################
+
+# Evaluate FZF for Zsh
+
+###############################################################################
+eval "$(fzf --zsh)"
+
+###############################################################################
+
+# Bun Completions
+
+###############################################################################
+[ -s "/Users/trent/.bun/_bun" ] && source "/Users/trent/.bun/\_bun"
+
+(( ! ${+functions[p10k]} )) || p10k finalize
